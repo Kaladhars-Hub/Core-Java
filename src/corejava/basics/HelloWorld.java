@@ -1,3 +1,5 @@
+package corejava.basics;
+
 class HelloWorld {
 
     public static void main() {

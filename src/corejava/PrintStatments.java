@@ -1,4 +1,4 @@
-package com;
+package corejava;
 
 public class PrintStatments {
     public static void main(String[] args) {

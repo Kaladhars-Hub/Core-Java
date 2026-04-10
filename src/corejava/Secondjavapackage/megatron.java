@@ -1,4 +1,4 @@
-package com.Secondjavapackage;
+package corejava.Secondjavapackage;
 
 public class megatron {
     static int i;

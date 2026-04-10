@@ -1,4 +1,4 @@
-package com.firstjavapackage;
+package corejava.firstjavapackage;
 
 public class Dog {
 

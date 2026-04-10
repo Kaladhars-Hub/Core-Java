@@ -1,4 +1,4 @@
-package com.firstvariable;
+package corejava.firstvariable;
 
 public class Ironman {
     public static void main(String[] args) {
