@@ -7,29 +7,32 @@ package corejava.basics;
 public class Variables {
 
     // Instance variable (belongs to object)
-    int instanceVar = 100;
+    int age = 25;
 
     // Static / Class variable (shared by all objects)
-    static int staticVar = 500;
+    static String company = "Google";
 
     public static void main(String[] args) {
         System.out.println("=== Variables in Java ===\n");
 
-        int localVar = 50;                    // Local variable
+        // Local variable → inside method
+        int salary = 50000;
 
+        // Creating object for instance variable
         Variables obj = new Variables();
 
-        System.out.println("Static Variable  : " + staticVar);
-        System.out.println("Instance Variable: " + obj.instanceVar);
-        System.out.println("Local Variable   : " + localVar);
+        // Accessing variables
+        System.out.println(obj.age);     // Instance → needs object
+        System.out.println(company);    // Static → no object needed
+        System.out.println(salary);     // local
 
         // Changing values
-        obj.instanceVar = 200;
-        staticVar = 999;
+        obj.age = 30;                 // instance variable changed
+        company = "Microsoft";        // static variable changed
 
         System.out.println("\nAfter modification:");
-        System.out.println("Instance : " + obj.instanceVar);
-        System.out.println("Static   : " + staticVar);
+        System.out.println("Instance : " + obj.age);
+        System.out.println("Static   : " + company);
 
         showParameterExample(777);   // passing value to parameter
     }
