@@ -16,7 +16,7 @@ public class Variables {
         System.out.println("=== Variables in Java ===\n");
 
         // Local variable → inside method
-        int salary = 50000;
+        int salary = 5000;
 
         // Creating object for instance variable
         Variables obj = new Variables();
