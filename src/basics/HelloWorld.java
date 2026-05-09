@@ -1,4 +1,4 @@
-package corejava.basics;
+package basics;
 
 // Class name should match file name
 class HelloWorld {

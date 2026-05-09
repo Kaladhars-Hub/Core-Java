@@ -1,4 +1,4 @@
-package corejava.basics;
+package basics;
 
 /**
  * This class demonstrates all 8 Primitive Data Types in Java.

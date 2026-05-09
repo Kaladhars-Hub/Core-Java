@@ -1,4 +1,4 @@
-package corejava.basics;
+package basics;
 
 /**
  * Demonstrates different types of variables in Java:

@@ -1,4 +1,4 @@
-package corejava.basics;
+package basics;
 
 public class Dog {
 
