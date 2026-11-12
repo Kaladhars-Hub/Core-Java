@@ -1,0 +1,3 @@
+Hello Java
+I am learning File Handling.
+This is my sample text file.

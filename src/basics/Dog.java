@@ -9,6 +9,7 @@ public class Dog {
 
     // Method (Behaviour of Dog)
     public void bark() {
+
         System.out.println(breed + " is barking: Woof Woof!");
     }
 }
